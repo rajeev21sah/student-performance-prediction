@@ -1,11 +1,3 @@
-# Virtual environment
-.venv/
-
-# Python caches
-__pycache__/
-*.pyc
-.ipynb_checkpoints/
-
 # Virtual environments
 .venv/
 venv/
