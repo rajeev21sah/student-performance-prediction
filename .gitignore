@@ -1,0 +1,44 @@
+# Virtual environment
+.venv/
+
+# Python caches
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Test and tool caches
+.pytest_cache/
+pytest-cache-files-*/
+.coverage
+htmlcov/
+
+# Credentials and local configuration
+.env
+*.pem
+*.key
+.streamlit/secrets.toml
+
+# Trained model files are rebuilt with `python -m src.save_model`.
+# (joblib files can execute code when loaded, so share them only with trusted people.)
+models/*
+!models/.gitkeep
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
