@@ -43,7 +43,7 @@ student-performance-prediction/
 │   ├── explainability.py       permutation importance, partial dependence
 │   ├── save_model.py           fit and save the final pipeline
 │   └── predict.py              input validation, model loading, prediction
-├── models/                     saved model (created locally, not committed)
+├── models/                     saved model and metadata (committed for the demo app; rebuild with python -m src.save_model)
 ├── reports/
 │   ├── figures/                plots from the notebook and the scripts
 │   └── model_results/          CSV result tables

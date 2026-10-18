@@ -23,10 +23,13 @@ htmlcov/
 *.key
 .streamlit/secrets.toml
 
-# Trained model files are rebuilt with `python -m src.save_model`.
-# (joblib files can execute code when loaded, so share them only with trusted people.)
+# The trained demo model and its metadata are committed so the deployed app can predict.
+# Rebuild them with `python -m src.save_model`. (joblib files can execute code when
+# loaded, so only load model files from sources you trust.)
 models/*
 !models/.gitkeep
+!models/student_performance_model.joblib
+!models/model_metadata.json
 
 # Editor and operating-system files
 .vscode/
